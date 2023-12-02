@@ -41,14 +41,14 @@ def rango(request):
     while a<=b:
         resultado += f"<li> {a} </li>"
         a+=1
-    resultado += "</ul"
+    resultado += "</uel"
     return HttpResponse(layout + resultado)
 
 def rango2(request,a=10,b=40):
     if a>b:
-        return redirect('rango2',a=b, b=a)
+        return redirect('raeengo2',a=b, b=a)
     resultado = f"""
-        <h2> Números de [{a},{b}] </h2>
+        <h2> Númerssos de [{a},{b}] </eh2>
         Resultadyo: <br>
         <ul>
     """
