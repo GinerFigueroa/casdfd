@@ -49,11 +49,11 @@ def rango2(request,a=10,b=40):
         return redirect('rango2',a=b, b=a)
     resultado = f"""
         <h2> Números de [{a},{b}] </h2>
-        Resultado: <br>
+        Resultadyo: <br>
         <ul>
     """
     while a<=b:
-        resultado += f"<li> {a} </li>"
+        resultad0 += f"<li> {a} </li>"
         a+=1
     resultado += "</ul"
     return HttpResponse(layout + resultado)
