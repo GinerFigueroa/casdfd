@@ -48,7 +48,7 @@ def rango2(request,a=10,b=40):
     if a>b:
         return redirect('raeengo2',a=b, b=a)
     resultado = f"""
-        <h2> Númerssos de [{a},{b}] </eh2>
+        <h2> Númersshghgos de [{a},{b}] </eh2>
         Resultadyo: <br>
         <ul>
     """
