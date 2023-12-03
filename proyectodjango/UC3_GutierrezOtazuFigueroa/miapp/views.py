@@ -30,8 +30,8 @@ def saludo(request):
     return render(request,'saludo.html')
 
 def rango(request):
-    a = 10
-    b = 20
+    a = 1244320
+    b = 124420
     resultado = f"""
         <h2> Números de [{a},{b}] </h2>
         Resultado: <br>
